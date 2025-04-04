@@ -16,8 +16,8 @@
     <body>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3">A Free Bootstrap Business Theme</span>
-                <span class="site-heading-lower">Business Casual</span>
+                <span class="site-heading-upper text-primary mb-3">A Juice a Day Keeps the Doctor Away!</span>
+                <span class="site-heading-lower">Juicylicious</span>
             </h1>
         </header>
         <!-- Navigation-->
@@ -28,8 +28,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Menu</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Products</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Store</a></li>
                     </ul>
                 </div>
@@ -41,56 +41,402 @@
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ms-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Blended to Perfection</span>
-                                <span class="section-heading-lower">Coffees & Teas</span>
+                                <span class="section-heading-upper">Organic</span>
+                                <span class="section-heading-lower">Smoothies & Bowls</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-01.jpg" alt="..." />
-                    <div class="product-item-description d-flex me-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p></div>
-                    </div>
+                           
+
                 </div>
             </div>
         </section>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+    
+            .top-container, .bottom-container {
+                background-color: #333;
+                color: #fff;
+                padding: 20px 0;
+                text-align: center;
+            }
+    
+            .container {
+                max-width: 1200px;
+                margin: 20px auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+    
+            .row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                width: 100%; /* Ensure rows occupy full width */
+            }
+    
+            .item {
+                width: calc(25% - 20px); /* 25% width for each item with margin between them */
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+    
+            .item img {
+                width: 100%;
+                height: 200px; /* Adjust the height as needed */
+                object-fit: cover;
+                border-bottom: 2px solid #ccc;
+            }
+    
+            .item-info {
+                padding: 10px;
+            }
+    
+            .item-info h3 {
+                margin: 0;
+                font-size: 18px;
+            }
+    
+            .item-info p {
+                margin: 5px 0;
+                font-size: 16px;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="item">
+                <img src="assets/img/414-coco-verde.jpg" alt="Item 1">
+                <div class="item-info">
+                    <h3>Coco Verde</h3>
+                    <p>kale, spinach, mango, banana, dates, coconut oil, coconut water</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/465-waterboy.jpg.jpg" alt="Item 2">
+                <div class="item-info">
+                    <h3>Kid Dynamite</h3>
+                    <p>banana, dragonfruit, house cashew milk</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/417-blaze.jpg" alt="Item 3">
+                <div class="item-info">
+                    <h3>The Blaze</h3>
+                    <p>strawberry, mango, banana, dates, ginger, cayenne, house cashew milk</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/453-cacao-monster.jpg" alt="Item 4">
+                <div class="item-info">
+                    <h3>Cacao Monster</h3>
+                    <p>banana, cashew butter, cacao, house almond milk</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item">
+                <img src="assets/img/416-super.jpg" alt="Item 5">
+                <div class="item-info">
+                    <h3>Superman</h3>
+                    <p>blueberries, goji berries, banana, dates, dragonfruit, house almond milk</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/452-tropic-energy.jpg" alt="Item 6">
+                <div class="item-info">
+                    <h3>Tropic Energy</h3>
+                    <p>mango, banana, dates, dragonfruit, brewed guayusa</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/415-cbj.jpg" alt="Item 7">
+                <div class="item-info">
+                    <h3>Bradley's CB&J</h3>
+                    <p>strawberry, banana, cashew butter, dates, dragonfruit, house cashew milk</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/451-blended-brew.jpg" alt="Item 8">
+                <div class="item-info">
+                    <h3>Blended Brew</h3>
+                    <p>banana, cashew butter, cold brew coffee, cacao (optional)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+    </html>
+
+
         <section class="page-section">
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex me-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-                                <span class="section-heading-lower">Bakery & Kitchen</span>
+                                <span class="section-heading-upper">Cold-pressed</span>
+                                <span class="section-heading-lower">Juices & Nut Milks</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-02.jpg" alt="..." />
-                    <div class="product-item-description d-flex ms-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p></div>
+                  
                     </div>
                 </div>
             </div>
         </section>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+    
+            .top-container, .bottom-container {
+                background-color: #333;
+                color: #fff;
+                padding: 20px 0;
+                text-align: center;
+            }
+    
+            .container {
+                max-width: 1200px;
+                margin: 20px auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+    
+            .row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                width: 100%; /* Ensure rows occupy full width */
+            }
+    
+            .item {
+                width: calc(25% - 20px); /* 25% width for each item with margin between them */
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                margin-bottom: 20px;
+            }
+    
+            .item img {
+                width: 100%;
+                height: 200px; /* Adjust the height as needed */
+                object-fit: cover;
+                border-bottom: 2px solid #ccc;
+            }
+    
+            .item-info {
+                padding: 10px;
+            }
+    
+            .item-info h3 {
+                margin: 0;
+                font-size: 18px;
+            }
+    
+            .item-info p {
+                margin: 5px 0;
+                font-size: 16px;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="item">
+                <img src="assets/img/387-rinse-refresh.jpg" alt="Item 1">
+                <div class="item-info">
+                    <h3>Rinse & Refresh</h3>
+                    <p>cucumber, grapefruit, pineapple</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/386-rinse-rebeet.jpg" alt="Item 2">
+                <div class="item-info">
+                    <h3>Rinse & Re-beet</h3>
+                    <p>beet, carrot, cucumber, celery, lemon</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/419-cold-brew-latte.jpg" alt="Item 3">
+                <div class="item-info">
+                    <h3>Cold Brew Latte</h3>
+                    <p>cold brew coffee, cashews, dates, vanilla bean, cinnamon, pink salt</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/374-spicy-green.jpg" alt="Item 4">
+                <div class="item-info">
+                    <h3>Spicy Green</h3>
+                    <p>spinach, kale, cucumber, celery, sprouts, parsley, cilantro, jalapeño, lime, pink salt</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item">
+                <img src="assets/img/377-citrus-fire.jpg" alt="Item 5">
+                <div class="item-info">
+                    <h3>Citrus Fire</h3>
+                    <p>grapefruit, orange, lemon, ginger, cayenne</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/399-coco-classic.jpg" alt="Item 6">
+                <div class="item-info">
+                    <h3>Coco Classic</h3>
+                    <p>young Thai coconut water</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/420-chocolate-shake.jpg" alt="Item 7">
+                <div class="item-info">
+                    <h3>Chocolate Shake</h3>
+                    <p>almonds, dates, cacao, pink salt</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/422-strawberry-shake.jpg" alt="Item 8">
+                <div class="item-info">
+                    <h3>Strawberry Shake</h3>
+                    <p>almonds, strawberries, dates, pink salt</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+    </html>
+
+
+
         <section class="page-section">
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ms-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">From Around the World</span>
-                                <span class="section-heading-lower">Bulk Speciality Blends</span>
+                                <span class="section-heading-upper">Favorited</span>
+                                <span class="section-heading-lower">Snacks & Bites</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-03.jpg" alt="..." />
-                    <div class="product-item-description d-flex me-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p></div>
+
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            background-color: #f5f5f5;
+                        }
+                
+                        .top-container, .bottom-container {
+                            background-color: #333;
+                            color: #fff;
+                            padding: 20px 0;
+                            text-align: center;
+                        }
+                
+                        .container {
+                            max-width: 1200px;
+                            margin: 25px auto;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                        }
+                
+                        .row {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 15px;
+                            width: 100%; /* Ensure rows occupy full width */
+                        }
+                
+                        .item {
+                            width: calc(25% - 20px); /* 25% width for each item with margin between them */
+                            background-color: #fff;
+                            border-radius: 10px;
+                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                            overflow: hidden;
+                            margin-bottom: 20px;
+                        }
+                
+                        .item img {
+                            width: 100%;
+                            height: 300px; /* Adjust the height as needed */
+                            object-fit: cover;
+                            border-bottom: 2px solid #ccc;
+                        }
+                
+                        .item-info {
+                            padding: 10px;
+                        }
+                
+                        .item-info h3 {
+                            margin: 0;
+                            font-size: 18px;
+                        }
+                
+                        .item-info p {
+                            margin: 5px 0;
+                            font-size: 16px;
+                            color: #555;
+                        }
+                    </style>
+                </head>
+                <body>
+                <div class="container">
+                    <div class="row">
+                        <div class="item">
+                            <img src="assets/img/489-salad.jpg" alt="Snack 1">
+                            <div class="item-info">
+                                <h3>Kale Caesar</h3>
+                                <p>kale and cabbage blend with vegan dressing and parm (select locations and times only)</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/476-chili-15546949999892.jpg" alt="Snack 2">
+                            <div class="item-info">
+                                <h3>Chili w/ Cashew Cream</h3>
+                                <p>our delicious house chili with your choice of regular or jalapeno-lime cashew cream (select locations only)</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/475-breakfast-bowl.jpg" alt="Snack 3">
+                            <div class="item-info">
+                                <h3>Breakfast Bowl</h3>
+                                <p>gluten-free oats (made w/ house cashew milk) and/or chia pudding (made with oat milk) with your choice of 3 toppings</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
+
+
         <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2023</p></div>
+            <div class="container"><p class="m-0 small">Copyright &copy; Maya Katz Juicylicious 2025</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
